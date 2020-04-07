@@ -65,6 +65,7 @@ export LIBERTY_BINARIES_DIR="$1/libertyBinaries"
 export LIBERTY_VERSION="openliberty-19.0.0.4"
 export APP_VERSION="daytrader-ee7"
 export WLP_SKIP_MAXPERMSIZE="1"
+export ANT_HOME="/usr/share/ant/"
 
 #TODO: Need to soft-code these configs. Need to add various affinity tools in the perf pre-reqs ()
 export AFFINITY=""
